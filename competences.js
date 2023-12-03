@@ -27,7 +27,7 @@ const removeCompetenceToLearn = (id) => {
 const setCompetences = () => {
     competencesToLearn.forEach((value, key, map) => {
         const competence = document.getElementById("input_" + key)
-        if (competence != null){
+        if (competence != null) {
             competence.value = value
         }
     })
