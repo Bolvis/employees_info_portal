@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mary Jane - Competence Data</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="https://www.w3schools.com/favicon.ico">
+    <script src="index.js"></script>
+    <script src="competences.js"></script>
+</head>
+<body>
+    <header id="top-bar">
+        <a href="index.html">
+            <img class="logo" src="https://strapp.sollers.eu/react/837117d235f4acdb5188.png" alt="home page">
+        </a>
+        <div class="employee-search-container">
+            <label >
+                <input id="employee-search" type="text" placeholder="Search for employees...">
+            </label>
+            <button onclick="searchForEmployee()">Search</button>
+        </div>
+    </header>
+    <nav class="menu">
+        <img class="employee-photo"
+             src="https://content-images.computershare.com/eh96rkuu9740/1jsHzAaLtp29CoC36k8rUZ/ac40d45d85c71ee651e5d5f93ff58f45/china-share-plan-solutions-square.jpg?w=676&h=555&fit=fill"
+             alt="employee photo">
+        <p id="employee-name">Mary Jane</p>
+        <a href="index.html">
+            <p class="inactive-tab">Home</p>
+        </a>
+        <a href="competences.html">
+            <p class="active-tab">Competence Data</p>
+        </a>
+        <a href="personal-data.html">
+            <p class="inactive-tab">Personal Data</p>
+        </a>
+    </nav>
+    <article>
+        <h2>Summary</h2>
+        <div class="shadowed-box">
+            <p class="information">Roles:</p>
+            <ul>
+                <li>Dev Team Member</li>
+                <li>Tech Lead/Lead Analyst</li>
+                <li>Team Member</li>
+            </ul>
+            <p class="information">Wants to learn (max 5):<button onclick="addCompetenceToLearn()">+</button></p>
+            <ul id="wants-to-learn">
+
+            </ul>
+        </div>
+    </article>
+    <article>
+        <h2>Competence</h2>
+        <div class="shadowed-box">
+            <p class="information">Sales cloud</p>
+            <p class="information">Go</p>
+            <p class="information">Java</p>
+            <p class="information">Gradle</p>
+            <p class="information">Jenkins</p>
+            <p class="information">Camunda</p>
+            <p class="information">ClaimCenter</p>
+            <p class="information">Python</p>
+            <p class="information">Docker</p>
+            <p class="information">Kubernetes</p>
+        </div>
+    </article>
+</body>
+</html>

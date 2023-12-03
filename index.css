@@ -1,0 +1,90 @@
+body {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(250, 250, 250);
+    height: 2.5vh;
+    display: inline-flex;
+    width: 100%;
+}
+
+
+.logo {
+    height: 2.35rem;
+    margin-top: 0.2rem;
+    margin-left: 0.75rem;
+    margin-right: 3.125rem;
+}
+
+.menu {
+    width: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    float: left;
+}
+
+nav {
+    height: 200vh;
+}
+
+.employee-photo {
+    margin-top: 0.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 4rem;
+}
+
+.active-tab {
+    color: rgb(43, 105, 173);
+    border-left: 1px solid rgb(43, 105, 173);
+}
+
+.inactive-tab {
+    color: grey;
+}
+
+input {
+    border: 0.06rem solid rgb(223, 225, 229);
+    border-radius: 1rem;
+    width: 20rem;
+    padding: 0.35rem;
+}
+
+.employee-search-container{
+    margin-top: 0.5rem;
+}
+
+button {
+    background-color: rgb(43, 105, 173);
+    color: aliceblue;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.35rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+article {
+    padding: 4rem;
+    color: rgb(80, 80, 80);
+    float: left;
+}
+
+.shadowed-box {
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    display: inline-grid;
+    padding-right: 3rem;
+    padding-left: 1rem;
+    float: left;
+}
+
+.information {
+    margin-left: 2rem;
+}
